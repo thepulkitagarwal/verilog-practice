@@ -10,10 +10,13 @@ module demuxtestbench;
     .O(O)
     );
   
+  integer i;
+  
   initial
   begin
-    for(select = 0; select < 4; select = select +1)
+    for(i = 0; i < 4; i = i + 1)
     begin
+      select = i
       #00 I = 0;
       #50 I = 1;
       #50 ;

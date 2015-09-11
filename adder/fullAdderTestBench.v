@@ -4,7 +4,7 @@ module fullAdderTestBench;
   
   fullAdderUsingHalfAdderGates f(a, b, p, sf, cf);
   
-  reg[2:0] i;
+  integer i;
   initial
   begin
     for(i = 0; i < 8; i = i + 1)

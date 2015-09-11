@@ -10,10 +10,13 @@ module muxtestbench;
     .O(O)
     );
   
+  integer i;
+  
   initial
   begin
-    for(I = 0; I<16; I = I +1)
+    for(i = 0; i < 16; i = i + 1)
     begin
+      I = i;
       #00 select = 2'b00;
       #50 select = 2'b01;
       #50 select = 2'b10;

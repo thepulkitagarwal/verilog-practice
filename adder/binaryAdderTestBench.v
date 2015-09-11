@@ -8,12 +8,16 @@ module binaryAdderTestBench;
   
   binaryAdderUsingFullAdder b1(A, B, Cin, S, Cout);
   
+  integer i, j;
+  
   initial
   begin
-    for(A = 0; A < 16; A = A + 1)
+    for(i = 0; i < 16; i = i + 1)
     begin
-      for(B = 0; B < 16; B = B + 1)
+      A = i;
+      for(j = 0; j < 16; j = j + 1)
       begin
+        B = j;
         #00 Cin = 1'b0;
         #50 Cin = 1'b1;
         #50 ;
@@ -23,3 +27,4 @@ module binaryAdderTestBench;
 endmodule
   
   
+
