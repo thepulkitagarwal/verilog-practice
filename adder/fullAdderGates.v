@@ -1,4 +1,4 @@
-module fulladderbehavioural(A, B, Cin, sum, Cout);
+module fullAdderGates(A, B, Cin, sum, Cout);
   input A;
   input B;
   input Cin;
