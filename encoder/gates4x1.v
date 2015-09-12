@@ -16,3 +16,4 @@ module encoderGates4x1(D, A, B, V);
   
 endmodule
 
+
