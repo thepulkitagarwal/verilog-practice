@@ -1,0 +1,11 @@
+#ignore all files
+*
+
+#except
+!*.v
+!mux
+!demux
+!adder
+!encoder
+!decoder
+!.gitignore
