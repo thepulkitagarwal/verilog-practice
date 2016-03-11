@@ -1,4 +1,1 @@
-# verilog-practice
-Verilog practice files. 
--------------------------
-
+For the active fork, go to: https://github.com/ShreyashPatodia/verilog-practice
